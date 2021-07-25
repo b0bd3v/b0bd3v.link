@@ -4,7 +4,7 @@ import * as styled from './LinkTree.styles'
 
 const LinkTree = () => <styled.ul>
   <styled.li>
-    <a href="https://github.com/b0bd3v" target="_blank">
+    <a href="https://github.com/b0bd3v" target="_blank" rel="noreferrer">
       <styled.content>
         <styled.media>
           <div>
@@ -21,7 +21,7 @@ const LinkTree = () => <styled.ul>
     </a>
   </styled.li>
   <styled.li>
-    <a href="https://www.linkedin.com/in/robertomartinsinfo/" target="_blank">
+    <a href="https://www.linkedin.com/in/robertomartinsinfo/" target="_blank" rel="noreferrer">
       <styled.content>
         <styled.media>
           <div>

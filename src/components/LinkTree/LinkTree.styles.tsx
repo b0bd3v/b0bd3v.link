@@ -18,6 +18,11 @@ export const li = styled.li`
   :first-child {
     margin-top: 0;
   }
+
+  :hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
 `
 
 export const content = styled.div`

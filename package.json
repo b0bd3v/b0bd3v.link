@@ -17,6 +17,7 @@
     },
     "devDependencies": {
         "@types/react": "17.0.15",
+        "@types/styled-components": "^5.1.11",
         "eslint": "7.31.0",
         "eslint-config-next": "11.0.1",
         "tf-next": "^0.7.0",
