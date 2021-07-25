@@ -34,11 +34,15 @@ export const media = styled.div`
   padding: 1em;
 `
 export const github = styled.svg`
-
+  path {
+    fill: #232323;
+  }
 `
 
 export const linkedin = styled.svg`
-
+  path {
+    fill: #232323;
+  }
 `
 
 export const data = styled.div`
