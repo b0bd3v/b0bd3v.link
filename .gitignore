@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# terraform
+.terraform
+terraform.tfstate.backup
+.terraform.lock.hcl
+terraform.tfstate
+.next-tf
