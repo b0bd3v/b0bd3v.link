@@ -2,8 +2,7 @@ import React from 'react';
 
 import * as styled from './LinkTree.styles'
 
-const LinkTreeItem = ({ href, title, description, icon }) => <styled.li>
-  <a href={href} target="_blank" rel="noreferrer">
+const LinkTreeItem = ({ href, title, description, icon }) => <a href={href} target="_blank" rel="noreferrer">
     <styled.content>
     <styled.media>
       <div>
@@ -18,6 +17,5 @@ const LinkTreeItem = ({ href, title, description, icon }) => <styled.li>
     </styled.data>
     </styled.content>
   </a>
-</styled.li>
 
 export default LinkTreeItem

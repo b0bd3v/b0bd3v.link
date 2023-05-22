@@ -3,7 +3,7 @@ import LinkTree from '../src/components/LinkTree/LinkTree'
 
 import styles from '../styles/Home.module.css'
 
-export default function Teste() {
+export default function Home() {
   return (
     <main className={styles.main}>
       <Avatar />
